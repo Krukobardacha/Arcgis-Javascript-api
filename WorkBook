@@ -1,0 +1,20 @@
+
+<script>
+var map; //Global variable
+require([
+"esri/map"
+],
+function (
+Map
+) {
+map = new Map("myMap", {});
+});
+});
+</script>
+
+
+Ctrl + Shift + I command (in Chrome).
+
+getMaxScale(), getMinZoom(),getMinScale(), getMaxZoom(), getScale(), extent
+
+JSON.stringify(map.extent)
