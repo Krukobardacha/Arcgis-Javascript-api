@@ -1,0 +1,89 @@
+EXAMPLE:
+ 
+ on(map, "extent-change", function (evt) {
+					console.log("1.", queryCountDeferred);
+				});
+				
+basemap-change	
+	Fired when the map's basemap is changed.
+	
+before-unload	
+	Event is fired before the map gets destroyed.
+click	<MouseEvent> mouseEvent	Fires when a user single clicks on the map using the mouse and the mouse pointer is within the map region of the HTML page.
+dbl-click	<MouseEvent> mouseEvent	Fires when a user double clicks on the map using the mouse and the mouse pointer is within the map region of the HTML page.
+
+extent-change	
+	Fires when the extent of the map has changed.
+key-down	<KeyboardEvent> keyboardEvent	Fires when a keyboard key is pressed.
+key-up	<KeyboardEvent> keyboardEvent	Fires when a keyboard key is released.
+
+layer-add	
+	Fires any time a layer is added to the map.
+
+layer-add-result	
+	Fires after specified layer has been added to the map.
+
+layer-remove	
+	Fires after the layer has been removed.
+
+layer-reorder	
+	Fires when the map layer order has been changed.
+
+layer-resume	
+	Fires when a map layer resumes drawing.
+
+layer-suspend	
+	Fires when a map layer suspends drawing.
+
+layers-add-result	
+	Fires after all layers are added to the map using the map.addLayers method.
+layers-removed		Fires after all the layers have been removed.
+
+layers-reordered	
+	Fires when all the layers have been reordered.
+
+load	
+	Fires when the first or base layer has been successfully added to the map.
+	
+mouse-down	<MouseEvent> mouseEvent	Fires when a mouse button is pressed down and the mouse cursor is in the map region of the HTML page.
+mouse-drag	<MouseEvent> mouseEvent	Fires while the mouse is being dragged until the mouse button is released.
+mouse-drag-end	<MouseEvent> mouseEvent	Fires when a mouse button is released and the user stops dragging the mouse.
+mouse-drag-start	<MouseEvent> mouseEvent	Fires when a mouse button is pressed down and the user starts to drag the mouse.
+mouse-move	<MouseEvent> mouseEvent	Fires any time the mouse pointer moves over the map region.
+mouse-out	<MouseEvent> mouseEvent	Fires when the mouse moves out of the map region of the HTML page.
+mouse-over	<MouseEvent> mouseEvent	Fires when the mouse moves into the map region of the HTML page.
+mouse-up	<MouseEvent> mouseEvent	Fires when the mouse button is released and the mouse pointer is within the map region of the HTML page.
+mouse-wheel	<MouseEvent> mouseEvent	Fires when the mouse wheel is scrolled.
+
+pan	
+	Fires during the pan process.
+
+pan-end	
+	Fires when the pan is complete.
+
+pan-start	
+	Fires when a user commences panning.
+
+reposition	
+	Fires when the map DIV is repositioned.
+
+resize	
+	Fires when the map's container has been resized.
+
+time-extent-change	
+	Fires when the map's timeExtent property is set.
+
+unload	
+	Fires when the page is refreshed.
+
+update-end	
+	Fires after layers that are updating their content have completed.
+update-start		Fires when one or more layers begins updating their content.
+
+zoom	
+	Fires during the zoom process.
+
+zoom-end	
+	Fires when the zoom is complete.
+
+zoom-start	
