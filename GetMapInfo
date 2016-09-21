@@ -18,3 +18,10 @@ Ctrl + Shift + I command (in Chrome).
 getMaxScale(), getMinZoom(),getMinScale(), getMaxZoom(), getScale(), extent
 
 JSON.stringify(map.extent)
+
+//-----------------------------
+
+window.location.pathname
+"/Code/B04959_04_CODE/B04959_04_CODE_02/app/"
+window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'))
+"/Code/B04959_04_CODE/B04959_04_CODE_02/app"
